@@ -2,6 +2,20 @@
 
 The package zip is built under `dist/`.
 
+## Player Import Fallback
+
+`dist/ValhallaCZ.r2z` is a r2modman profile import file for players. Keep this file available while Thunderstore/r2modman indexing lags behind the public package page.
+
+Players can use it through r2modman:
+
+1. Select `Valheim`.
+2. Click `Import/Update` on the profile screen.
+3. Choose `Import new profile`.
+4. Choose `From file`.
+5. Select `ValhallaCZ.r2z`.
+
+This bypasses the `ValhallaCZ_Modpack` package lookup and installs the underlying indexed dependencies directly.
+
 ## Upload
 
 1. Open Thunderstore in the Valheim community.
@@ -17,8 +31,9 @@ Thunderstore package uploads require a logged-in Thunderstore account/team, so t
 For every future server mod change:
 
 1. Update `package/manifest.json`.
-2. Increment `version_number`.
-3. Update `package/CHANGELOG.md`.
-4. Rebuild the zip.
-5. Upload the new version to the same Thunderstore package/team.
-6. Tell players to update the modpack in r2modman before joining.
+2. Update `package/CHANGELOG.md`.
+3. Rebuild the Thunderstore zip.
+4. Rebuild or export a matching `dist/ValhallaCZ.r2z` profile file.
+5. If publishing a new Thunderstore release, increment `version_number` because uploaded Thunderstore versions are immutable.
+6. Upload the new version to the same Thunderstore package/team if publishing through Thunderstore.
+7. Tell players to update the modpack or import the latest `.r2z` before joining.

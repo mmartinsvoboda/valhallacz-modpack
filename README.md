@@ -16,9 +16,19 @@ Valheim dedicated servers do not send BepInEx mods to clients. Each player must 
 
 See [docs/PLAYER_SETUP.md](docs/PLAYER_SETUP.md).
 
+### Current Install Path
+
+The Thunderstore package exists, but r2modman can lag behind Thunderstore's public package page while its searchable package index refreshes. If `ValhallaCZ_Modpack` is not visible in r2modman search, import the prepared r2modman profile file instead:
+
+- r2modman profile import file: [dist/ValhallaCZ.r2z](dist/ValhallaCZ.r2z)
+- Raw download URL: https://raw.githubusercontent.com/mmartinsvoboda/valhallacz-modpack/main/dist/ValhallaCZ.r2z
+
+Use r2modman `Import/Update` -> `Import new profile` -> `From file`, then select `ValhallaCZ.r2z`. This installs the same indexed underlying mods and copies the shared config files.
+
 ## Package
 
 - Upload-ready Thunderstore zip: [dist/ValhallaCZ_Modpack-1.0.0.zip](dist/ValhallaCZ_Modpack-1.0.0.zip)
+- r2modman profile import file: [dist/ValhallaCZ.r2z](dist/ValhallaCZ.r2z)
 - Thunderstore package source: [package/](package/)
 - Publishing notes: [docs/PUBLISHING.md](docs/PUBLISHING.md)
 - Mod overview: [docs/MODS_OVERVIEW.md](docs/MODS_OVERVIEW.md)
