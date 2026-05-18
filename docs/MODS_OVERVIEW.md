@@ -8,9 +8,13 @@ The mod loader. It does not add gameplay features by itself, but it makes the ot
 
 Lets crafting and building use materials from nearby chests. This is the "craft/build from nearby storage" mod. It is server-synced and will kick clients that do not have the mod when it is installed on the server.
 
+Current ValhallaCZ range: 35m.
+
 ## AzuAutoStore
 
 Moves nearby dropped items into containers and adds quick store/search behavior. The current default lets players dump inventory into nearby containers with the configured shortcut, while respecting item/container rules. It is server-synced and requires matching client installation.
+
+Current ValhallaCZ ranges: player quick-store 10m, container pickup/fallback 15m.
 
 ## Quick Stack - Store - Sort - Trash - Restock
 
