@@ -1,0 +1,13 @@
+{
+  "name": "ValhallaCZ_Modpack",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Shared ValhallaCZ Valheim QoL modpack for the private ValhallaCZ server.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333",
+    "Azumatt-AzuCraftyBoxes-1.8.14",
+    "Azumatt-AzuAutoStore-3.0.14",
+    "Goldenrevolver-Quick_Stack_Store_Sort_Trash_Restock-1.4.13",
+    "TastyChickenLegs-AutomaticFuel-1.4.8"
+  ]
+}
