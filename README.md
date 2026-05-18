@@ -30,3 +30,10 @@ See [docs/PLAYER_SETUP.md](docs/PLAYER_SETUP.md).
 - `Azumatt-AzuAutoStore-3.0.14`
 - `Goldenrevolver-Quick_Stack_Store_Sort_Trash_Restock-1.4.13`
 - `TastyChickenLegs-AutomaticFuel-1.4.8`
+- `Azumatt-AzuAreaRepair-1.1.6`
+- `Azumatt-SleepSkip-1.3.0`
+- `Advize-PlantEasily-2.1.1`
+- `Azumatt-AAA_Crafting-2.1.6`
+- `Azumatt-AzuHoverStats-1.1.9`
+- `Azumatt-ItemCompare-1.0.9`
+- `Azumatt-AzuClock-1.0.5`
